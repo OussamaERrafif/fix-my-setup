@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a new diagnostic, check, or improvement
+title: '[feat]: '
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the broken-setup situation this would help detect or fix.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed check or behavior
+      description: What should Fix My Setup detect, and what message / suggested fix should it show?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - System
+        - Node.js
+        - Git
+        - Python
+        - Java
+        - Ports
+        - Environment
+        - New category / plugin
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: This does not require mutating the user's machine in diagnostic mode.
+        - label: This does not require printing secrets or environment values.

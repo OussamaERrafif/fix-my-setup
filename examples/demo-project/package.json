@@ -1,0 +1,9 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny project to demo Fix My Setup detecting missing deps and env vars.",
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  }
+}

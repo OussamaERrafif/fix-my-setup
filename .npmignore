@@ -1,0 +1,14 @@
+src/
+tests/
+docs/
+examples/
+.github/
+*.config.ts
+*.config.js
+tsconfig*.json
+.prettier*
+.eslint*
+eslint.config.js
+vitest.config.ts
+coverage/
+prompt.md

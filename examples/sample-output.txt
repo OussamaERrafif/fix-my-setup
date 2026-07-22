@@ -1,0 +1,45 @@
+﻿Fix My Setup
+
+System
+ℹ OS: Windows (10.0.26200)
+ℹ Architecture: x64
+ℹ Shell: PowerShell
+ℹ Working directory: C:\Users\thunderX\Desktop\Programing\GithubProjects\FIxMySetup\examples\demo-project
+ℹ PATH contains 55 entries
+ℹ Elevated/administrator: no
+
+Node.js
+✓ Node.js detected: 22.18.0
+✓ npm detected: 11.6.2
+✓ npx detected: 11.6.2
+✓ npm global binary directory is on PATH
+✓ npm cache directory is accessible
+ℹ Skipped npm registry check (--no-network)
+✗ package.json declares dependencies but node_modules is missing
+
+Git
+✓ Git detected: 2.50.1
+
+Python
+✓ Python detected: 3.13.14 (python3)
+✓ pip detected: 25.3
+
+Java
+✓ Java detected: 21.0.8
+✓ Java compiler detected: 21.0.8
+
+Environment
+⚠ .env exists but DATABASE_URL is missing
+✓ API_PORT is defined
+✓ REDIS_URL is defined
+
+Ports
+✓ Port 3000 is available
+
+Suggested fixes:
+
+1. Install project dependencies (safe)
+   Run your package manager’s install command to populate node_modules.
+   $ npm install
+
+Summary: 13 ok · 1 warning · 1 error
